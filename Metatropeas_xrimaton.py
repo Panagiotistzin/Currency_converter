@@ -2,9 +2,7 @@ import time
 class Questions:
     def __init__(self, prompt):
         self.prompt=prompt
-f = input("Pes onoma: ")
-print(f"O Pornometanastis se kalosorizi {f}! ")
-time.sleep(3)
+
 a = ["Arxika pes mou ti thes na metatrepsis: (Πρέπει να διαλέξεις μεταξύ του : a του b του c του d και του e) \n a.USD\n b.Euro\n c.Yuan\n d.Aggliki lira\n e.Roupia Indias\n"]
 c = ["Epita pes mou se ti thes na ta metatrepsis: (Πρέπει πάλι να διαλέξεις μεταξύ του : a του b του c του d και του e) \n a.USD\n b.Euro\n c.Yuan\n d.Aggliki lira\n e.Roupia Indias\n "]
 
